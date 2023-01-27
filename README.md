@@ -6,7 +6,7 @@ Estimate different COVID death scenarios in China under different reopen timelin
 ## Installation
 
 ```
-pip install  -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Run dashboard locally
