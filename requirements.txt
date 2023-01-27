@@ -1,6 +1,9 @@
 # local package
 -e .
 
+plotly
+pandas
+
 # external requirements
 click
 Sphinx
