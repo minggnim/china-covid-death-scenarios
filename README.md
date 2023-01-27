@@ -1,7 +1,7 @@
 china-covid-death-scenarios
 ===========================
 
-Calcuate Covid death numbers in China under different reopen timelines
+Estimate different COVID death scenarios in China under different reopen timelines
 
 Project Organization
 --------------------
