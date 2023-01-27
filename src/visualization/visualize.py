@@ -1,16 +1,18 @@
+import pathlib
 import pandas as pd
 import plotly.io as pio
 import streamlit as st
 st.set_page_config(layout="wide")
 
-data_store = '../../data/store.h5'
-graph_store = '../../data/plotly_json/'
+PATH = pathlib.Path(__file__).resolve().parents[2]
+data_store = PATH / 'data/store.h5'
+graph_store = PATH / 'data/plotly_json'
 
 uk_death_rate_weekly = pd.read_hdf(data_store, 'uk_death_rate_weekly')
 china_age_group = pd.read_hdf(data_store, 'china_age_group')
 
-estimate_total = pio.read_json(graph_store + 'estimate_total.json')
-estimate_age_group = pio.read_json(graph_store + 'estimate_age_group.json')
+estimate_total = pio.read_json(graph_store / 'estimate_total.json')
+estimate_age_group = pio.read_json(graph_store / 'estimate_age_group.json')
 
 
 st.header('China COVID Death Assumptions')

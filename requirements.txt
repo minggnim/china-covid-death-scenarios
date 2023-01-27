@@ -1,13 +1,9 @@
 # local package
 -e .
 
+# external requirements
 plotly
 pandas
-
-# external requirements
-click
-Sphinx
-coverage
-awscli
-flake8
+pathlib
+streamlit
 python-dotenv>=0.5.1
