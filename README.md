@@ -3,6 +3,12 @@ china-covid-death-scenarios
 
 Estimate different COVID death scenarios in China under different reopen timelines
 
+## Installation
+
+```
+pip install  -r requirements.txt
+```
+
 ## Run dashboard locally
 
 ```
